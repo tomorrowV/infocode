@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team B Home final</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-logo">
+                    <img src="img/logo.png" alt="Logo" class="logo">
+                </div>
+                <div class="header-content">
+                    <div class="header-top">
+                        <div class="first-block">
+                            <p>Тренинговое агентство ТимБи</p>
+                        </div>
+                        <div class="second-block">
+                            <p><a href="tel:+7 (495) 784-56-26">+7 (495) 784-56-26</p></a>
+                        </div>
+                        <div class="third-block">
+                            <p>Перезвоним<br> в удобное время</p>
+                        </div>
+                        <a href="#1" class="fourth-block btn">
+                            Оставить заявку
+                        </a>
+                        <div class="burger-container" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div>
+                    </div>
+                    <div class="header-bottom">
+                        <div class="menu">
+                            <ul class="up-content">
+                                <li><a href="#">Программы</a></li>
+                                <li><a href="#">Площадки</a></li>
+                                <li><a href="#">Цены</a></li>
+                                <li><a class="info1" href="#">Кейсы</a></li>
+                                <li><a class="info2" href="#">О нас</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Клиенты</a></li>
+                                        <li><a href="#">Блог</a></li>
+                                        <li><a href="#">Новости</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="contacts">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-whatsapp"></i>WhatsApp</a></li>
+                                <li><a class="black" href="mailto:mail@teamb.ru"><i
+                                            class="far fa-envelope"></i>mail@teamb.ru</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+
+
+        <div class="for-us">
+            <div class="container">
+                <div class="for-us-img-mobile">
+                    <img src="img/TEAM.png" alt="">
+                </div>
+                <div class="for-us-content">
+                    <div class="for-us-info">
+                        <h1>Тимбилдинг<br> для сотрудников</h1>
+                        <p>Командообразовательные тренинги, программы тимбилдинга, корпоративные квесты, активные
+                            и развлекательные программы, приключенческие туры.</p>
+                        <a href="#" class="our-programm btn">Наша программа</a>
+                    </div>
+                    <div class="for-us-img"><img src="img/team-photo.png" alt="team"></div>
+                </div>
+                <div class="diagram" id="diagram">
+                    <div class="container">
+                        <div class="diagram-wrapper">
+                        <img src="img/diagram.png" alt="">
+                        <ul class="diagram-menu">
+                            <li>35% тимбилдинг</li>
+                            <li>30% Командообразовательные тренинги</li>
+                            <li>12% квесты</li>
+                            <li>8% программы на воде</li>
+                            <li>15% прочие программы</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="for-us-info-blocks">
+                    <div class="for-us-block">
+                        <img src="img/17.png" alt="">
+                        <img class="for-us-info-block-mobile-img" src="img/17-mobile.svg" alt="">
+                        <span>лет на рынке</span>
+                    </div>
+                    <div class="for-us-block" id="hov">
+                        <img src="img/1 764.png" alt="">
+                        <img class="for-us-info-block-mobile-img" src="img/1764-mobile.svg" alt="">
+                        <span>проектов</span>
+                    </div>
+                    <div class="for-us-block">
+                        <img src="img/97 020.png" alt="">
+                        <img class="for-us-info-block-mobile-img" src="img/97020-mobile.svg" alt="">
+                        <span>участников</span>
+                    </div>
+                    <div class="for-us-block">
+                        <img src="img/94.png" alt="">
+                        <img class="for-us-info-block-mobile-img" src="img/94-mobile.svg" alt="">
+                        <span>сценария</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+
+        <section class="our-program">
+            <div class="container">
+                <div class="our-program-header">
+                        <h2>Наши программы</h2>
+                </div>
+                <div class="our-program-content">
+                    <div class="our-program-block" style="background-image: url(img/first.png);">
+                        <h5 class="title">Веревочный<br> курс</h5>
+                        <span>Лучшее решение для Компаний, которые хотят совместить корпоративный отдых с решением
+                            командообразовательных задач.</span>
+                        <a href="#1">Подробнее</a>
+                    </div>
+                    <div class="our-program-block" style="background-image: url(img/second.png);">
+                        <h5 class="title">Программы<br> тимбилдинга</h5>
+                        <span>Лучшее решение для Компаний, которые хотят совместить корпоративный отдых с решением
+                            командообразовательных задач.</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="our-program-block" style="background-image: url(img/third.png);">
+                        <h5 class="title">Корпоративные<br> квесты</h5>
+                        <span>Лучшее решение для Компаний, которые хотят совместить корпоративный отдых с решением
+                            командообразовательных задач.</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="our-program-block" style="background-image: url(img/fourth.png);">
+                        <h5 class="title">Программа<br> по воде</h5>
+                        <span>Лучшее решение для Компаний, которые хотят совместить корпоративный отдых с решением
+                            командообразовательных задач.</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="our-program-block" style="background-image: url(img/fifth.png);">
+                        <h5 class="title">Корпоративы</h5>
+                        <span>Лучшее решение для Компаний, которые хотят совместить корпоративный отдых с решением
+                            командообразовательных задач.</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="our-program-block" style="background-image: url(img/sixth.png);">
+                        <h5 class="title">Программы в<br> помещениях</h5>
+                        <span>Лучшее решение для Компаний, которые хотят совместить корпоративный отдых с решением
+                            командообразовательных задач.</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="our-program-block" style="background-image: url(img/seventh.png);">
+                        <h5 class="title">Для детей</h5>
+                        <span>Лучшее решение для Компаний, которые хотят совместить корпоративный отдых с решением
+                            командообразовательных задач.</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="our-program-block" style="background-image: url(img/eighth.png);">
+                        <h5 class="title">Корпоративные<br> туры на Кавказ</h5>
+                        <span>Лучшее решение для Компаний, которые хотят совместить корпоративный отдых с решением
+                            командообразовательных задач.</span>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="container">
+                <div class="about-us-content">
+                    <div class="content-block-first">
+                        <div class="title">
+                            <h2>О нас</h2>
+                        </div>
+                        <div class="about-us-info">
+                            <p>Мы занимаемся организацией и проведением тимбилдингав самых разных форматах <strong>с
+                                    2003 года.</strong></p>
+                               
+
+                                <p>Организовать тренинг или провести развлекательный квест?
+                                Спланировать праздничный корпоратив или выезд коллектива на загородный отдых?</p>
+                              
+                                <p>Мы предоставляем комплексные услуги в Москве и Подмосковье компаниям с любой
+                                численностью штата.</p>
+
+                            <a href="#">Подробнее</a>
+
+                        </div>
+                    </div>
+                    <div class="content-img">
+                        <img src="img/whatsUP.png" alt="">
+                    </div>
+                </div>
+                <div class="about-us-info-blocks slider-2">
+                    <div class="about-us-info-block">
+                        <div class="block">
+                        <img src="img/icon1.jpg" alt="">
+                        <p>Перезвоним<span><br>за 5 минут</span></p>
+                        </div>
+                    </div>
+                    <div class="about-us-info-block">
+                        <div class="block">
+                        <img src="img/icon2.jpg" alt="">
+                        <p>Вышлем КП<br> за<span> за 30 минут</span></p>
+                        </div>
+                    </div>
+                    <div class="about-us-info-block">
+                        <div class="block">
+                        <img src="img/icon3.jpg" alt="">
+                        <p>Адаптируем<br> программу<span> за 30 минут</span></p>
+                        </div>
+                    </div>
+                    <div class="about-us-info-block">
+                        <div class="block">
+                        <img src="img/icon4.jpg" alt="">
+                        <p>Рады приехать<br> на встречу<span> 24/7</span></p>
+                        </div>
+                    </div>
+                    <div class="about-us-info-block">
+                        <div class="block">
+                        <img src="img/icon5.jpg" alt="">
+                        <p>Индивидуальная
+                            программа за <span>3-5 дней</span></p>
+                            </div>
+                    </div>
+                    <div class="counter"></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="price">
+            <div class="container">
+                <div class="price-content">
+                    <div class="title">
+                        <h2>
+                            Узнайте стоимость тимбилдинга
+                        </h2>
+                      
+                    </div>
+                    <div class="price-form-container">
+                        
+                        <form class="price-form" id="form" class="al-form">
+                            <label for="form" class="al-label">Оставьте заявку на рассчет и с вами свяжется менеджер.</label>
+                            <div class="form-wrapper">
+                            <div class="input-wrapper"><input type="text" name="name" placeholder="Ваше имя*"></div>
+                            <div class="input-wrapper"><input type="text" name="phone" placeholder="Ваш телефон*"></div>
+                            <div class="input-wrapper"><input type="text" name="mail" placeholder="Ваш E-mail*"></div>
+                            <button type="submit" class="btn">Узнать стоимость</button>
+                        </div>
+                        </form>
+                        <p>Нажимая на кнопку, вы соглашаетесь с политикой обработки персональных данных</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="questions">
+            <div class="container">
+                <div class="title">
+                    <h2>Вопрос-ответ</h2>
+                </div>
+                <div class="question-content question-slider">
+                    
+                    <div class="question-block">
+                        <h3>Что такое тимбилдинг?
+                        </h3>
+                        <p>Teambuilding можно дословно перевести
+                            как «построение команды», в этом названии заключается основная цель подобных мероприятий.
+                        </p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="question-block">
+                        <h3>Для чего нужен тимбилдинг?</h3>
+                        <p>В 2009 году Стэндфордский университет опубликовал результаты исследований с участием
+                            работников компаний разного масштаба. По результатам было ....</p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div class="question-block">
+                        <h3>Как заказать тимбилдинг?</h3>
+                        <p>Оставьте заявку или позвоните нашим специалистам. Мы назначим удобное время для встречи.
+                            На встрече мы обсудим основные вопросы, составим....</p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section class="reviews">
+            <div class="container">
+                <div class="title">
+                    <h2>Отзывы</h2>
+                </div>
+               <div class="reviews-blocks slider">
+                    <div class="reviews-block slider__item">
+                        <img src="img/rostel.svg" alt="">
+                    </div>
+                    <div class="reviews-block slider__item">
+                        <img src="img/led.svg" alt="">
+                    </div>
+                    <div class="reviews-block slider__item">
+                        <img src="img/cdek.svg" alt="">
+                    </div>
+                    <div class="reviews-block slider__item">
+                        <img src="img/royal.svg" alt="">
+                    </div>
+                    <div class="reviews-block slider__item">
+                        <img src="img/led.svg" alt="">
+                    </div>
+                    <div class="reviews-block slider__item">
+                        <img src="img/royal.svg" alt="">
+                    </div>
+                    <div class="reviews-block slider__item">
+                        <img src="img/cdek.svg" alt="">
+                    </div>
+                   
+               </div>
+               <div class="counter"></div>
+            </div>
+        </section>
+    
+        <div class="reviews-text-wrapper">
+            <div class="container">
+                <div class="reviews-img">
+                    <img src="img/reviews-photo.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <p><span>Уважаемый Андрей Леонидович,</span></p>
+                        
+                        <p>От лица всего коллектива Центра компетенции корпоративных систем управления хочу выразить Вам признательность за организацию и проведение корпоративного командообразующего мероприятия.</p>
+                        
+                        <p>Благодарим Вас за прекрасный праздник.</p>
+                        
+                        <p>Очень порадовали оригинальность сценария, высокий уровень организации и профессионализм сотрудников Вашей компании.</p>
+                        
+                        <p>В этот день была создана дружная и действительно праздничная атмофсера.</p>
+                        
+                        <p>Сотрудники нашего подразделения получили огромное удовольствие и массу позитивных эмоций от организованноого мероприятия.</p>
+                        
+                        <p>Желаем Вам новых профессиональных достижений, творческих успехов и процветания.</p>
+                        
+                        <p>Директор ЦККСУ МФ ОЦО, М.А. Очеретяный</p>
+                </div>
+                <a class="read-review" href="#">Читать отзыв</a>
+            </div>
+        </div>
+
+
+        <section class="create-team">
+            <div class="container">
+                <div class="title">
+                    <h2>Создайте<br> продуктивную команду!</h2>
+                </div>
+               <div class="first-text-box">
+                    <img src="img/superHero.svg" alt="">
+                    <span>Организуем и проведем мероприятие<br> для Вашей Компании.</span>
+               </div>
+               <div class="second-text-box">
+                    <img src="img/fingerUp.svg" alt="">
+                    <span>Сплотим ваш коллектив и повысим<br> его эффективность.</span>
+                </div>
+                <div class="third-text-box">
+                    <button class="btn">Отправить заявку</button>
+                    <span>Нажимая на кнопку, вы соглашаетесь<br> с политикой обработки персональных данных</span>
+                </div>
+                <div class="create-img-box">
+                    <img src="img/create-team-photo.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="footer">
+          
+            <div class="container">
+                <div class="footer-contacts-wrapper">
+                    <img src="img/footerlogo.svg" alt="">
+                    <p><a class="footer-tel" href="tel:+7 (495) 784-56-26">+7 (495) 784-56-26</p></a>
+                    <ul class="footer-contacts-menu" style="padding: 0">
+                        <li><a class="black" href="mailto:mail@teamb.ru"><i class="far fa-envelope"></i>mail@teamb.ru</a></li>
+                        <li><a class="green" href="#"><i class="fab fa-whatsapp"></i>WhatsApp</a></li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#"><span style="background-image: url('img/facebook.svg'); background-size: contain; width: 28px; height: 20px; display: inline-block; background-repeat: no-repeat;"></span></a>
+                        <a href="#"><span style="background-image: url('img/instagram.svg'); background-size: contain; width: 28px; height: 20px; display: inline-block; background-repeat: no-repeat;"></span></a>
+                        <a href="#"><span style="background-image: url('img/vk.svg'); background-size: contain; width: 28px; height: 20px; display: inline-block; background-repeat: no-repeat;"></span></a>
+                        <a href="#"><span style="background-image: url('img/youtube.svg'); background-size: contain; width: 28px; height: 20px; display: inline-block; background-repeat: no-repeat;"></a>
+                        <a href="#"><span style="background-image: url('img/zen.svg'); background-size: contain; width: 28px; height: 20px; display: inline-block; background-repeat: no-repeat;"></span></a>
+                    </div>
+                    <div class="footer-info">
+                        <p>ООО «ТимБи»
+                            <br>
+                            ОГРН 1137746183816 ИНН 7707798370
+                            <br>
+                            Москва, Большая Филевская, 1</p>
+                    </div>
+                </div>
+                <div class="footer-menu-form-wrapper">
+                    <div class="menu-form-row">
+                        <div class="menu">
+                            <ul style="padding: 0">
+                                <li><a href="#">Программы</a></li>
+                                <li><a href="#">Площадки</a></li>
+                                <li><a href="#">Цены</a></li>
+                                <li><a href="#">Кейсы</a></li>
+                                <li><a href="#">О нас</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="form">
+                            <div class="title">
+                                <h5>Подписаться на  новости компании</h5>
+                            </div>
+                            <form>
+                                <div class="input-row">
+                                    <input type="text" name='E-mail' placeholder="Ваш Email*">
+                                </div>
+                                    <button class="btn"><span>Подписаться</span></button>
+                            </form>
+                            <span>Нажимая на кнопку, вы соглашаетесь с политикой<br> обработки персональных данных</span>
+                        </div>
+                    </div>
+                    <div class="police">
+                        <p>2003—2020©Все права защищены.</p>
+                        <p><a href="#">Политика конфиденциальности и обработки персональных данных.</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
